@@ -1,0 +1,14 @@
+name: 'Hello All'
+description: 'Some description'
+inputs:
+  whoAreYou:
+    description: 'Who get request'
+    required: true
+    default: 'Any'
+outputs:
+  time:
+    description: 'Now time'
+
+runs:
+  using: 'node16'
+  main: index.js
